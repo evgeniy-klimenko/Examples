@@ -1,0 +1,49 @@
+html, 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 380px;
+    min-height: 280px;
+    padding: 10px;
+    font-family: "Arial", sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    background: #ecf0f1;
+}
+
+a{
+    color: white;
+    text-decoration: none
+}
+
+.main-menu li{
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: #ffffff;
+    border-bottom: 2px solid #2c3e50; 
+    background: #2980b9;
+    width: 170px;
+    position: relative;
+    right: 39px;
+    top: -10px;
+}
+
+.main-menu .opened{
+    background:  #1abc9c;   
+    border-bottom: 2px solid #2c3e50;
+    height: 20px;
+    
+}
+
+.sub-menu li{
+    background:  #1abc9c;   
+    border-bottom: 2px solid #2ecc71;    
+    position: relative;
+    left: 120px;
+    z-index: 10;
+    top: -28px;
+}

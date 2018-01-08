@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.bundle.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <canvas id="canvas">
+
+    </canvas>
+    <section class="greetings">
+ 
+        <div>
+            <p class="logo">
+                    <img src="pic/logo.png" alt="">
+                </p>
+            <div id="menu">
+
+               
+
+                <nav>
+                    <ul>
+                        <li><a class="button " href="#map">Map</a>
+                        </li>
+                        <li><a class="button " href="#contacts">Contacts</a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="description">
+
+                <h1>Welcome to spaceships shop</h1>
+                <p>Please chose what type of spaceship you want to buy.</p>
+
+
+            </div>
+
+            <div class="nav">
+
+                <ul>
+                    <li><a class="button1 " href="#corvete">Corvette <p><img src="pic/corvette.png" alt=""></p> </a>
+                    </li>
+                    <li><a class="button1 " href="#interceptor">Interceptor <p><img src="pic/interceptor.png" alt=""></p> </a>
+                    </li>
+                    <li><a class="button1 " href="#normandysr1">Normandy SR1 <p><img src="pic/normandysr1.png" alt=""></p> </a>
+                    </li>
+                    <li><a class="button1 " href="#normandysr2">Normandy SR2 <p><img src="pic/normandysr2.png" alt=""></p> </a>
+                    </li>
+
+                </ul>
+
+
+            </div>
+        </div>
+
+    </section>
+
+    <section class="coruscant">
+        <div>
+
+
+            <div>
+                <nav>
+                    <ul>
+                        <li><a class="button " href="#">Menu</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="corvette" id="corvete">
+                <h2> <a > CORVETTE </a></h2>
+
+                <p>
+                    <img src="pic/corvette.png" alt="">
+                </p>
+
+                <p>The corvette had a smooth hull, and was propelled by two circular engins. The cockpit rested in a hammerhead-style outcropping, similar to that of the Thranta-class corvette, although oriented horizontally instead of vertically. The interior of the vessel boasted a state of the art holo communications terminal and lush furnishings, as well as back lit controls in the cockpit, allowing for dimmer lighting.</p>
+
+            </div>
+             
+             
+               <a class="button" id="goc_orvette" href="">Characteristics</a>
+                        
+                
+            
+
+            <div id="modal_form">
+
+        <span id="modal_close">X</span> 
+
+        <canvas id="c_orvette"></canvas>
+    </div>
+                            <div id="overlay"></div>
+           
+            <div class="corvette_gallery">
+                <h2>Inside The Ship</h2>
+                <p class="review">The chatroom one of the biggest quarters on the ship. Here you can find not only group comlink but small restplace with members of your crew.</p>
+                <a>
+                    <img src="pic/corvetteInside.jpg" alt="">
+                </a>
+
+
+
+                <a>
+                    <img src="pic/corvetteInside1.jpg" alt="">
+                </a>
+                <p class="review1">The main control room is the place where you can chose your destination and take control of the ship.</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="dromunkaas">
+
+        <div>
+
+            <div>
+                <nav>
+                    <ul>
+                        <li><a class="button " href="#">Menu</a>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+            <div class="interceptor" id="interceptor">
+                <h2> <a > INTERCEPTOR </a></h2>
+
+                <p>
+                    <img src="pic/interceptor.png" alt="">
+                </p>
+
+                <p>The interceptor’s angular design combines the maneuverability of a fighter with impressive armament rivaling some larger military vessels. The interceptor also features a set of "strike foils" that remain down for travel but can be expanded in short-range combat to maximize the ship’s agility and range of firepower. The interior aesthetic is sleek and functionality. Military-grade computers and communications equipment are integrated into the ship’s hardware, and hidden security devices make sabotage extremely difficult and dangerous.</p>
+
+            </div>
+            
+            
+             <li><a class="button" id="goc_orvette1" href="#">Characteristics</a>
+                        
+                
+            <div id="modal_form1">
+
+        <span id="modal_close1">X</span> 
+
+        <canvas id="c_orvette1"></canvas>
+    </div>
+    <div id="overlay1"></div>
+            
+            
+            
+
+            <div class="interceptor_gallery">
+                <h2>Inside The Ship</h2>
+                <p class="review2">The chatroom one of the biggest quarters on the ship. Here you can find not only group comlink but small restplace with members of your crew.</p>
+
+                <a>
+                    <img src="pic/interceptorInside.jpg" alt="">
+                </a>
+
+
+
+                <a>
+                    <img src="pic/interceptorInside1.jpg" alt="">
+                </a>
+                <p class="review3">The main control room is the place where you can chose your destination and take control of the ship.</p>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="citadel">
+        <div>
+
+
+            <div>
+                <nav>
+                    <ul>
+                        <li><a class="button " href="#">Menu</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="normandysr1" id="normandysr1">
+                <h2> <a > NORMANDY SR1 </a></h2>
+
+                <p>
+                    <img src="pic/normandysr1.png" alt="">
+                </p>
+
+                <p>The Normandy SR-1 is a prototype "deep scout". She is optimized for solo reconnaissance missions deep within unstable regions, using state-of-the-art stealth technology powered by an experimental drive core.</p>
+
+            </div>
+            
+            
+            <li><a class="button" id="gon_ormandysr1" href="#">Characteristics</a>
+                        
+                
+            
+
+            <div id="modal_form2">
+
+        <span id="modal_close2">X</span> 
+
+        <canvas id="n_ormandysr1"></canvas>
+    </div>
+    <div id="overlay2"></div>
+
+            <div class="normandysr1_gallery">
+                <h2>Inside The Ship</h2>
+                <p class="review4">The main control room is the place where you can chose your destination and take control of the ship.</p>
+                <a>
+                    <img src="pic/normandysr1Inside.png" alt="">
+                </a>
+
+
+
+                <a>
+                    <img src="pic/normandysr1Inside2.png" alt="">
+                </a>
+                <p class="review5">The chatroom one of the biggest quarters on the ship. Here you can find not only group comlink but small restplace with members of your crew.
+                </p>
+
+
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="citadel2">
+        <div>
+
+
+            <div>
+                <nav>
+                    <ul>
+                        <li><a class="button " href="#">Menu</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="normandysr2" id="normandysr2">
+                <h2> <a> NORMANDY SR2 </a></h2>
+
+                <p>
+                    <img src="pic/normandysr2.png" alt="">
+                </p>
+
+                <p>Normandy SR-2 is a starship that is very similar to the Normandy SR-1, having been based on the design layout of it. The Normandy SR-2 has several key differences, the most significant being that she is almost twice the mass of the original. Normandy SR2 also designed the ship with more crew-oriented comforts by including civilian-grade accommodations (like leather chairs and a kitchen). The ship still retains the Normandy SR-1's stealth characteristics. However, unlike the SR-1, the SR-2 cannot land on every planet—due to her increased mass—requiring shore parties to use a shuttle to get to a planet's surface.</p>
+
+            </div>
+
+           <li><a class="button" id="gon_ormandysr2" href="#">Characteristics</a>
+                        
+                
+            
+
+            <div id="modal_form3">
+
+        <span id="modal_close3">X</span> 
+
+        <canvas id="n_ormandysr2"></canvas>
+    </div>
+    <div id="overlay3"></div>
+           
+            <div class="normandysr2_gallery">
+                <h2>Inside The Ship</h2>
+                <p class="review4">The main control room is the place where you can chose your destination and take control of the ship.</p>
+                <a>
+                    <img src="pic/normandysr2Inside.jpg" alt="">
+                </a>
+
+
+
+                <a>
+                    <img src="pic/normandysr2Inside2.jpg" alt="">
+                </a>
+                <p class="review5">The chatroom one of the biggest quarters on the ship. Here you can find not only group comlink but small restplace with members of your crew.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="map" id="map" href="#map">
+
+        <div>
+            <nav>
+                <ul>
+                    <li><a class="button " href="#">Menu</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1322.8669190513722!2d35.042259453905615!3d48.461636160969675!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e6!4m3!3m2!1d48.4625473!2d35.054644499999995!4m5!1s0x40dbe2e09d99958b%3A0x7bbfa45acac728b4!2z0YPQu9C40YbQsCDQotGA0L7QuNGG0LrQsNGPLCAyMSwg0JTQvdC10L_RgNC-0L_QtdGC0YDQvtCy0YHQuiwg0JTQvdC10L_RgNC-0L_QtdGC0YDQvtCy0YHQutCw0Y8g0L7QsdC70LDRgdGC0Yw!3m2!1d48.4615017!2d35.042268!5e0!3m2!1sru!2sua!4v1489419727993" allowfullscreen></iframe>
+        </div>
+
+    </section>
+
+    <section id="contacts" class="contacts">
+        <div>
+            <div>
+                <div>
+                    <nav>
+                        <ul>
+                            <li><a class="button " href="#">Menu</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="cont">
+                    <div class="countcenter">
+
+                        <div class="a">
+                            <img src="pic/jedi.png" alt="">
+                        </div>
+
+                        <div class="registration ">
+                            <form method="post ">
+                                Your Contact:
+                                <br>
+                                <input type="text" name="login">
+                                <br>E-mail:
+                                <br>
+                                <input type="text" name="username">
+                                <br>Name:
+                                <br>
+                                <input type="text" name="username">
+                                <br>Surname:
+                                <br>
+                                <input type="text" name="username">
+                                <br>Adres:
+                                <br>
+                                <input type="text" name="username">
+                                <br>
+                                <input type="submit" value="Confirm the purchase.">
+                            </form>
+                            <div class="social">
+
+                                <a target="_blank" href="https://www.facebook.com" class="fb"></a>
+                                <a target="_blank" href="https://www.vk.com" class="vk"></a>
+
+                            </div>
+                        </div>
+
+                        <div class="a">
+                            <img src="pic/sith.png" alt="">
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="s">
+
+                </div>
+
+
+
+    </section>
+
+
+
+    <script src="javascript.js"></script>
+     <script src="javascript1.js"></script>
+    
+
+</body>
+
+</html>

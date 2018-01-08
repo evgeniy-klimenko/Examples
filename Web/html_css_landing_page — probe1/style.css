@@ -1,0 +1,590 @@
+html {
+    background-color: black;
+}
+section {
+    margin: auto;
+    padding: auto;
+}
+.greetings {
+    /*    background-image: url("pic/stars.jpg");*/
+    text-align: center;
+    height: auto;
+    width: auto;
+    z-index: 5;
+}
+.button {
+    display: inline-block;
+    width: 180px;
+    padding: 4px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+}
+.button:hover {
+    background-color: #fff;
+    color: #000;
+}
+.button:active {
+    background-color: darkgrey;
+    border: 1px solid darkgrey;
+    color: #000;
+}
+ul {
+    margin-top: 0px;
+    padding: 0;
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 5px 5px 5px 5px;
+}
+nav {
+    margin-top: 0px;
+    padding: 0;
+    width: auto;
+    padding: 10px;
+}
+.greetings div nav {
+    margin-top: 0px;
+    width: auto;
+    height: 30px;
+    padding: 10px;
+}
+.description {
+    color: white;
+    text-align: center;
+    margin: 40px 10px;
+}
+.description h1 {
+    font-family: Magneto;
+    font-size: 50pt;
+}
+.description p {
+    font-family: Magneto;
+    font-size: 30pt;
+}
+.button1 {
+    display: inline-block;
+    width: 180px;
+    height: 250px;
+    padding: 4px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    text-decoration: none;
+}
+.button1:hover {
+    background-color: #fff;
+    color: #000;
+}
+.button1:active {
+    background-color: darkgrey;
+    border: 1px solid darkgrey;
+    color: #000;
+}
+.nav {
+    height: 320px;
+    padding: 5px 5px 5px 15px;
+}
+div img {
+    height: 150px;
+    width: 180px;
+}
+.corvette {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    color: orangered;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+}
+.corvete h2 a {
+    text-decoration: none;
+    color: orangered;
+    margin-top: 10px;
+}
+.coruscant {
+    background-image: url("pic/corvetteBG.jpg");
+    height: auto;
+    margin: auto;
+    font-family: fantasy;
+    color: orangered;
+}
+.coruscant h2,
+{
+    font-family: Magneto;
+    font-size: 40pt;
+}
+.coruscant p img,
+{
+    width: 300px;
+    height: auto;
+}
+.corvette_gallery {
+    width: auto;
+    height: auto;
+}
+.corvette_gallery img {
+    width: 640px;
+    height: 450px;
+    padding: 5px;
+    position: relative;
+}
+.corvette_gallery h2 {
+    text-align: center;
+    color: orangered;
+    margin-top: 0px;
+}
+.review {
+    text-decoration: none;
+    text-align: left;
+    color: orangered;
+    width: auto;
+    font-size: 16pt;
+}
+.review1 {
+    text-decoration: none;
+    text-align: right;
+    color: orangered;
+    width: auto;
+    font-size: 16pt;
+}
+.interceptor {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    color: red;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 17pt;
+    outline: none;
+    text-decoration: none;
+}
+.dromunkaas {
+    background-image: url("pic/interceptorBG.jpg");
+    height: auto;
+    margin: auto;
+    font-family: Aharoni;
+}
+.dromunkaas h2 {
+    padding: 15px;
+    font-size: 20pt;
+    color: red;
+}
+.dromunkaas p img,
+{
+    width: 300px;
+    height: auto;
+}
+.interceptor_gallery {
+    width: auto;
+    height: auto;
+}
+.interceptor_gallery img {
+    width: 640px;
+    height: 450px;
+    padding: 5px;
+    position: relative;
+}
+.interceptor_gallery h2 {
+    text-align: center;
+    color: red;
+}
+.review2 {
+    text-decoration: none;
+    text-align: left;
+    color: red;
+    width: auto;
+    font-size: 18pt;
+}
+.review3 {
+    text-decoration: none;
+    text-align: right;
+    color: red;
+    width: auto;
+    font-size: 18pt;
+}
+.normandysr1 {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    color: blue;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+}
+.citadel {
+    background-image: url("pic/normandysBg.jpg");
+    height: auto;
+    margin: auto;
+    font-family: Algerian;
+    color: blue;
+}
+.citadel h2 {
+    font-size: 20pt;
+    color: darkblue;
+}
+.citadel p img,
+{
+    width: 300px;
+    height: auto;
+}
+.normandysr1_gallery {
+    width: auto;
+    height: auto;
+}
+.normandysr1_gallery img,
+.normandysr2_gallery img {
+    width: 640px;
+    height: 350px;
+    padding: 5px;
+    position: relative;
+}
+.normandysr1_gallery h2 {
+    text-align: center;
+    color: darkblue;
+}
+.review4 {
+    text-decoration: none;
+    text-align: left;
+    color: darkblue;
+    width: auto;
+    font-size: 18pt;
+}
+.review5 {
+    text-decoration: none;
+    text-align: right;
+    color: lightblue;
+    width: auto;
+    font-size: 18pt;
+}
+.normandysr2 {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+    color: darkorange;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+}
+.citadel2 {
+    background-image: url("pic/sr2BG.jpg");
+    height: auto;
+    margin: auto;
+    font-family: Algerian;
+    color: darkorange;
+}
+.citadel2 h2 {
+    font-size: 20pt;
+    color: darkorange;
+}
+.citadel2 p img,
+{
+    width: 300px;
+    height: auto;
+}
+.normandysr2_gallery {
+    width: auto;
+    height: auto;
+}
+.normandysr2_gallery img {
+    width: 640px;
+    height: 350px;
+    padding: 5px;
+    position: relative;
+}
+.normandysr2_gallery h2 {
+    text-align: center;
+    color: darkorange;
+}
+.citadel2 .review4 {
+    color: darkorange;
+}
+.citadel2 .review5 {
+    color: darkorange;
+}
+.map {
+    background-image: url("pic/mapBG.jpg");
+    height: auto;
+    padding: 0;
+}
+div iframe {
+    width: 99%;
+    height: 500px;
+    margin-top: 25px;
+}
+.contacts {
+    background-image: url("pic/stars.jpg");
+    height: auto;
+    margin: auto;
+    font-family: STARWARS;
+    color: darkgoldenrod;
+}
+.cont {
+    display: flex;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+.countcenter {
+    width: 1020px;
+    height: auto;
+    padding: 20px;
+    margin: auto;
+    position: relative;
+    right: -35px;
+    display: block;
+}
+.a img {
+    height: auto;
+    width: auto;
+    float: left;
+    margin: 55px;
+    padding: 5px;
+}
+.registration {
+    width: auto;
+    padding: 5px;
+    margin-top: 50px;
+    float: left;
+}
+.social a {
+    background: url(pic/SPRITE.png) no-repeat;
+    display: inline-block;
+    height: 84px;
+    width: 84px;
+}
+.social .fb {
+    background-position: 0px 0px;
+}
+.social .fb:hover {
+    background-position: 0px -168px;
+}
+.social .fb:active {
+    background-position: 0px -84px;
+}
+.social .vk {
+    background-position: -758px 0px;
+}
+.social .vk:hover {
+    background-position: -758px -168px;
+}
+.social .vk:active {
+    background-position: -756px -85px;
+}
+#canvas {
+    position: absolute;
+    /*
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+*/
+}
+.up {
+    display: block;
+    position: fixed;
+    right: 0px;
+    width: auto;
+    height: auto;
+}
+.up:hover {
+    background-color: #fff;
+    color: #000;
+}
+.up:active {
+    background-color: darkgrey;
+    border: 1px solid darkgrey;
+    color: #000;
+}
+.logo {
+    margin: 0px;
+    padding: 0px;
+    width: 50px;
+    height: 0px;
+}
+#modal_form {
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+    border: 3px #000 solid;
+    background: #fff;
+    position: fixed;
+    top: 45%;
+    left: 45%;
+    margin-top: -150px;
+    margin-left: -150px;
+    margin-bottom: -150px;
+    display: none;
+    opacity: 0;
+    z-index: 5;
+    padding: 20px 10px;
+}
+#modal_form1 {
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+    border: 3px #000 solid;
+    background: #fff;
+    position: fixed;
+    top: 45%;
+    left: 45%;
+    margin-top: -150px;
+    margin-left: -150px;
+    margin-bottom: -150px;
+    display: none;
+    opacity: 0;
+    z-index: 5;
+    padding: 20px 10px;
+}
+#modal_form2 {
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+    border: 3px #000 solid;
+    background: #fff;
+    position: fixed;
+    top: 45%;
+    left: 45%;
+    margin-top: -150px;
+    margin-left: -150px;
+    margin-bottom: -150px;
+    display: none;
+    opacity: 0;
+    z-index: 5;
+    padding: 20px 10px;
+}
+#modal_form3 {
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
+    border: 3px #000 solid;
+    background: #fff;
+    position: fixed;
+    top: 45%;
+    left: 45%;
+    margin-top: -150px;
+    margin-left: -150px;
+    margin-bottom: -150px;
+    display: none;
+    opacity: 0;
+    z-index: 5;
+    padding: 20px 10px;
+}
+#modal_form #modal_close {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: block;
+}
+#modal_form1 #modal_close1 {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: block;
+}
+#modal_form2 #modal_close2 {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: block;
+}
+#modal_form3 #modal_close3 {
+    width: 21px;
+    height: 21px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    display: block;
+}
+#overlay{
+    z-index: 3;
+    position: fixed;
+    background-color: #000;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: none;
+}
+#overlay1{
+    z-index: 3;
+    position: fixed;
+    background-color: #000;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: none;
+}
+#overlay2{
+    z-index: 3;
+    position: fixed;
+    background-color: #000;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: none;
+}
+#overlay3 {
+    z-index: 3;
+    position: fixed;
+    background-color: #000;
+    opacity: 0.8;
+    -moz-opacity: 0.8;
+    filter: alpha(opacity=80);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: none;
+}
+li a .button {
+    margin-top: 0px;
+    padding: 0;
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}

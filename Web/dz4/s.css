@@ -1,0 +1,28 @@
+.social a {
+    background: url(pic/SPRITE.png) no-repeat;
+    display: inline-block;
+    height: 84px;
+    width: 84px;
+}
+
+ .social .fb{
+    background-position: 0px 0px;
+}
+.social .fb:hover{
+    background-position: 0px -168px;
+}
+
+.social .fb:active{
+    background-position: 0px -84px;
+}
+
+.social .vk{
+    background-position: -758px 0px;
+}
+.social .vk:hover{
+    background-position:  -758px -168px;
+}
+
+.social .vk:active{
+    background-position:  -756px -85px;
+}
